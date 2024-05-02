@@ -1,5 +1,6 @@
 def print_params(params):
-    print(str(params) * 2)
+    print(params)
+    print(params)
 
 
 print_params("Hello World")
