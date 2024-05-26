@@ -24,23 +24,16 @@ class Figure:
     @staticmethod
     def __is_valid_color(*args):
         for i in args:
-            # print('Проверка правильности цвета')
-            # print(i)
             if not isinstance(i, int) or not 0 <= i <= 255:
                 return False
         return True
 
     def is_valid_sides_count(self, args):  # args - tuple
-        # print(self.sides_count)
         if len(args) != self.sides_count:
             args = (1,) * self.sides_count
-        # print(args)
         return args  # tuple returned
 
     def __is_valid_sides(self, *args):
-        # print(args)
-        # args=self.is_valid_sides_count(args) #args as tuple
-        # print(args)
         for i in args:
             if not isinstance(i, int) or not len(args) == self.sides_count:
                 return False
@@ -53,19 +46,14 @@ class Figure:
 
     def set_color(self, r, g, b):
         if self.__is_valid_color(r, g, b):
-            # print(True)
             self.__color = [r, g, b]
 
     def set_sides(self, *sides):  # sides - tuple
-        # print(sides)
 
         if self.__is_valid_sides(*sides):
-            # sides = self.is_valid_sides_count(sides)
             self.__sides = [*sides]
 
     def __len__(self):
-        # print(type(self._Figure__sides))
-        # print(self.get_sides())
         return sum(self.get_sides())
 
 
@@ -75,8 +63,8 @@ class Circle(Figure):
     def __init__(self, color, *side):
         super().__init__(color, *self.is_valid_sides_count(side))
         self.__radius = self.get_sides()[0] / (2 * pi)
-        # print(self.__dict__)
 
+    
     def get_square(self):
         return pi * self.__radius ** 2
 
@@ -100,7 +88,6 @@ class Cube(Figure):
 
     def __init__(self, color, *side):
         super().__init__(color, *self.is_valid_sides_count((side) * self.sides_count))
-        # print(self.__dict__)
 
     def get_volume(self):
         return self.get_sides()[0] ** 3
