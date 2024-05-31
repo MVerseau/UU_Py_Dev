@@ -9,7 +9,7 @@ if score_1 >= score_2 and team1_time == team2_time:
 elif score_1 < score_2 and team1_time <= team2_time:
     challenge_result = "Победа команды Волшебники Данных!"
 else:
-    "Ничья!"
+    challenge_result = "Ничья!"
 tasks_total = score_2 + score_1
 time_avg = (team1_time + team2_time) / tasks_total
 
