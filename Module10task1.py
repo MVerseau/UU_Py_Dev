@@ -12,6 +12,11 @@ def interv(start, end):
             print(i)
             sleep(1)
 
+'''
+def interv(start, end):
+    for i in range(start, end+1):
+        print( chr(i) if chr(i).isalpha() else i  )
+'''
 
 t1 = Thread(target=interv, kwargs=dict(start=1, end=10))
 t2 = Thread(target=interv, kwargs=dict(start='a', end='j'))
