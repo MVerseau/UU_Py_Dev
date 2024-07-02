@@ -9,52 +9,59 @@ class Table:
         self.is_busy = is_busy
 
 
+
 class Cafe:
     def __init__(self, tables):
         self.queue = queue.Queue()
-
         self.tables = tables
-
-        self.cstrs_lock = threading.Lock()
         self.tables_lock = threading.Lock()
 
-    # def customer(self):
+    def mock_thread(self):
+        time.sleep(3)
+        while True:
+            customer = self.queue.get()
+            if customer is None:
+                break
+            customer.start()
+            customer.join(1)
 
 
     def customer_arrival(self):  # функция-producer
-        for table in self.tables:
-            th = threading.Thread(target=self.serve_customer, args=(self.queue.get,),name=table.number)
-            th.start()
-            # th.join()
-
+        threading.Thread(target=self.mock_thread).start()
         for i in range(1, 21):
             c = Customer(func=self.serve_customer)
-            c.daemon=True
             c.name = f'{i}'
             print(f'Посетитель номер {c.name} прибыл.')
+
+            #for table in self.tables:
+             #   print(f'{table}.is_busy {table.is_busy}')
+            #print(f'all tables are busy {all([table.is_busy for table in tables])}')
             self.queue.put(c)
             time.sleep(1)
+        self.queue.put(None)
 
-    def serve_customer(self, customer):  # функция-customer #FIXME: Зациклился - приходит и есть только посетитель 1
+    def serve_customer(self, customer):
+        if all([table.is_busy for table in self.tables]):  # False
 
-        # if all([table.is_busy for table in tables]):  # False
-        #     print(f'Посетитель номер {customer.name} ожидает свободный стол.')
-        #     event.clear()
-        #     event.wait()
+            event.clear()
+            print(f'Посетитель номер {customer.name} ожидает свободный стол.')
+            # time.sleep(3)
+            event.wait()
+
+
         for table in self.tables:
 
             if not table.is_busy:
-                table.is_busy = True
-                print(f'Посетитель номер {customer().name} сел за стол {table.number}.')
-                time.sleep(5)
-                print(f'Посетитель номер {customer().name} покушал и ушёл.')
-                table.is_busy = False
-                # self.queue.task_done()
-                event.set()
 
+                table.is_busy = True
+                event.clear()
+                print(f'Посетитель номер {customer.name} сел за стол {table.number}.')
+                time.sleep(5)
+                print(f'Посетитель номер {customer.name} покушал и ушёл.')
+
+                table.is_busy = False
+                event.set()
                 break
-        # print(f'Количество потоков {threading.active_count()}')
-        # self.queue.join()
 
 
 class Customer(threading.Thread):
