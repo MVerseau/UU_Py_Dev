@@ -2,8 +2,8 @@ import multiprocessing
 
 
 class ContentError(Exception):
-    def __init__(self):
-        self.message = f"No {self.data[request[1]]} can be shipped."
+    def __init__(self, product):
+        self.message = f"No {product} can be shipped."
 
     def __str__(self):
         return self.message
@@ -11,26 +11,26 @@ class ContentError(Exception):
 
 class WarehouseManager(multiprocessing.Process):
     def __init__(self):
-        super().__init__()
+        # super().__init__()
         self.data = dict()
 
     def run(self, requests):
-        for request in requests:
-            multiprocessing.Process(target=self.process_request, args=(request,)).start()
+        with multiprocessing.Pool(processes=len(requests)) as pool:
+            pool.map(self.process_request, requests)
 
     def process_request(self, request):
-        try:
-            if request[0] == 'receipt':
-                self.data[request[1]] = request[2]
-            elif request[0] == 'shipment':
-                if self.data[request[1]] >= request[2]:
-                    self.data[request[1]] -= request[2]
-                elif 0 < self.data[request[1]] < request[2]:
-                    print(f"Only {self.data[request[1]]} can be shipped.")
-                else:
-                    raise ContentError
-        except:
-            raise ContentError
+
+        if request[1] in self.data or self.data[request[1]]==0:
+            print(f"No {request[1]} can be shipped.")
+        elif request[1] == 'receipt':
+            self.data.setdefault([request[0]], request[2])
+            print(self.data)
+        elif request[1] == 'shipment':
+            print(self.data)
+            if self.data[request[0]] >= request[2]:
+                self.data[request[0]] -= request[2]
+            elif 0 < self.data[request[0]] < request[2]:
+                print(f"Only {self.data[request[0]]} can be shipped.")
 
 
 # Создаем менеджера склада
@@ -46,7 +46,7 @@ requests = [
 ]
 
 # Запускаем обработку запросов
-if __name__=='__main__':
+if __name__ == '__main__':
     manager.run(requests)
 
 # Выводим обновленные данные о складских запасах
