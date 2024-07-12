@@ -1,5 +1,5 @@
-def depack(item):
-    a=0
+def calculate_structure_sum(item):
+    global a
     for i in item:
         if isinstance(i, str):
             a += len(i)
@@ -8,7 +8,7 @@ def depack(item):
         else:
             if isinstance(i, dict):
                 i = tuple(i.items())
-            a+=depack(i)
+            calculate_structure_sum(i)
     return a
 
 
@@ -20,5 +20,5 @@ data_structure = [
     ((), [{(2, 'Urban', ('Urban2', 35))}])  # set
 ]
 
-
-print(depack(data_structure))
+a = 0
+print(calculate_structure_sum(data_structure))
