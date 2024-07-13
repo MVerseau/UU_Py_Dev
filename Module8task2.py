@@ -1,27 +1,29 @@
-class InvalidDataException(Exception):
-    def __init__(self):
-        self.name = self.__class__.__name__
+from functools import reduce
 
 
-class ProcessingException(Exception):
-    def __init__(self):
-        self.name = self.__class__.__name__
+def personal_sum(numbers):
+    result = 0
+    incorrect_data = 0
+    for i in numbers:
+        try:
+            result += i
+        except TypeError:
+            incorrect_data += 1
+            print(f'Некорректный тип данных для подсчёта суммы - {i}')
+    return result, incorrect_data
 
 
-def f(a: str, b: int, c=0):
+def calculate_average(numbers):
     try:
-        if not isinstance(b, (float, int)) or not isinstance(a, str) or not isinstance(c, (int, float)):
-            raise InvalidDataException
-        elif c == 0 or c > len(a):
-            raise ProcessingException
-    except ProcessingException as pe:
-        return f'{pe.name}: деление на ноль невозможно либо строка слишком короткая.'
-    except InvalidDataException as ide:
-        return f'{ide.name}: неправильный тип данных.'
-    else:
-        return b / c, a[-c:]
-    finally:
-        print('Результат обработки:')
+        get_result = personal_sum(numbers)
+        return get_result[0] / (len(numbers) - get_result[-1])
+    except ZeroDivisionError:
+        return 0
+    except TypeError:
+        print(f'В numbers записан некорректный тип данных')
 
 
-print(f('kzkz', 4, 5))
+print(f'Результат 1: {calculate_average("1, 2, 3")}')  # Строка перебирается, но каждый символ - строковый тип
+print(f'Результат 2: {calculate_average([1, "Строка", 3, "Ещё Строка"])}')  # Учитываются только 1 и 3
+print(f'Результат 3: {calculate_average(567)}')  # Передана не коллекция
+print(f'Результат 4: {calculate_average([42, 15, 36, 13])}')  # Всё должно работать
