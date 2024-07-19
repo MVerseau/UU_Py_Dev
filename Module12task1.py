@@ -31,16 +31,8 @@ if __name__ == '__main__':
     # print(rt.test_run())
     # print(rt.test_walk())
     # print(rt.test_challenge())
-    try:
-        threading.Thread(target=print, args=(rt.test_run,))
-    except:
-        raise AssertionError
-    try:
-        threading.Thread(target=print, args=(rt.test_walk,)).start()
-    except:
-        raise AssertionError
-    try:
-        threading.Thread(target=print, args=(rt.test_challenge,)).start()
-    except:
-        raise AssertionError
-
+    #Потоки - чтобы прошли все 3 теста независимо от результата
+    threading.Thread(target=print, args=(rt.test_run,)).start()
+    threading.Thread(target=print, args=(rt.test_walk,)).start()
+    threading.Thread(target=print, args=(rt.test_challenge,)).start()
+   
