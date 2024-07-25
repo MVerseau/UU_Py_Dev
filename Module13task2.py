@@ -19,6 +19,6 @@ async def all_messages(message):
 
 
 # if __name__ == "__main__":
-api = '7390509811:AAGZ9MzIsp66MgyqTlE52aFIwIACb8WJfbc'
+api = 
 bot = Bot(token=api)
 asyncio.run(dp.start_polling(bot))
