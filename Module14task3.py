@@ -77,9 +77,12 @@ async def send_calories(message, state):
 @dp.message(F.text == 'Купить')
 async def get_buying_list(message: types.Message):
     for i in range(1, 5):
-        photo = types.FSInputFile(f'Module14task3_{i}.jpg')
         await message.answer(text=f'Название: Product{i}|Описание: описание {i}|Цена: {i * 100}')
-        await message.answer_photo(photo=photo)
+        try:
+            photo = types.FSInputFile(f'Module14task3_{i}.jpg')
+            await message.answer_photo(photo=photo)
+        except:
+            await message.answer(f'Фотография Product{i} будет скоро загружена')
     await message.answer('Выберите продукт для покупки:', reply_markup=kb3)
 
 
