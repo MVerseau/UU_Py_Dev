@@ -1,4 +1,3 @@
-
 from fastapi import FastAPI, HTTPException
 from typing import List
 from pydantic import BaseModel
@@ -32,7 +31,7 @@ async def change_user(user_id: int, age: int, username: str) -> User:
         for user in users:
             if user.id == user_id:
                 user.username, user.age = username, age
-                edit_user=user
+                edit_user = user
         return edit_user
     except:
         raise HTTPException(status_code=404, detail=f'User was not found')
@@ -43,8 +42,8 @@ async def delete_user(user_id: int) -> User:
     try:
 
         for user in users:
-            if user.id==user_id:
-                deleted_user=users.pop(users.index(user))
+            if user.id == user_id:
+                deleted_user = users.pop(users.index(user))
         return deleted_user
     except:
         raise HTTPException(status_code=404, detail=f'User was not found')
