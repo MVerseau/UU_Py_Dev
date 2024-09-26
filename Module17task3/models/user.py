@@ -1,7 +1,7 @@
-from Module17task2.backend.db import Base
+from Module17task3.backend.db import Base
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
-from Module17task2.models import *
+from Module17task3.models import *
 
 
 class User(Base):
@@ -17,5 +17,6 @@ class User(Base):
 
 
 from sqlalchemy.schema import CreateTable
-
 print(CreateTable(User.__table__))
+
+
