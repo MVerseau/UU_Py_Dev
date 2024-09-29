@@ -7,3 +7,4 @@ def func_view(request):
 
 class ClassView(TemplateView):
     template_name = r'second_task\class.html'
+
