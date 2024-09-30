@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>{% block head %}{{title}}{% endblock %}</title>
+
+</head>
+    <body>
+        <header>
+            {% block pagename %}
+                <h1>Welcome to the place where you can construct your own gown</h1>
+                <h2><em>Here you can choose base apparel and model it as you wish</em></h2>
+            {% endblock %}
+        </header>
+        {% block menu %}
+            <h3><a href="/">Back to main page</a></h3>
+            <h3><a href="/catalog/">Apparels</a></h3>
+            <h3><a href="/cart/">Cart</a></h3>
+        {% endblock %}
+        {% block content %}
+            <ul>
+                {% for i in items %}
+                <li><a href="#">{{i}}</a></li>
+                {% endfor %}
+            </ul>
+        {% endblock %}
+    </body>
+</html>
