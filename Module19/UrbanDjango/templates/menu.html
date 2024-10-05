@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>{% block head %}{{title}}{% endblock %}</title>
+
+</head>
+    <body>
+        <header>
+            {% block pagename %}
+                <h1>Main page</h1>
+
+            {% endblock %}
+        </header>
+        {% block menu %}
+            <h3><a href="/">Back to main page</a></h3>
+            <h3><a href="/catalog/">Games</a></h3>
+            <h3><a href="/cart/">Cart</a></h3>
+        {% endblock %}
+        {% block content %}
+            <ul>
+                {% for i in items %}
+                <li>{{i.title|title}} | {{i.description}} Стоимость: {{i.cost}}
+                    <button type="submit">To chart</button>
+                </li>
+                {% endfor %}
+            </ul>
+        {% endblock %}
+        {% block registration %}
+            <h6><a href="/registration_page">Sign on</a></h6>
+        {% endblock %}
+    </body>
+</html>

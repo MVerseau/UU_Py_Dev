@@ -6,8 +6,8 @@ class Buyer(models.Model):
     balance = models.DecimalField(decimal_places=2, max_digits=9)
     age = models.IntegerField()
 
-    def __lt__(self, other):
-        return self < other
+    def __str__(self):
+        return self.name
 
 
 class Game(models.Model):
