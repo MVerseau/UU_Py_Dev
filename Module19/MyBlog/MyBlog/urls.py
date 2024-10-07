@@ -1,5 +1,5 @@
 """
-URL configuration for UrbanDjango project.
+URL configuration for MyBlog project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -17,18 +17,9 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
-from task1.views import sign_up_by_django
-# from task1.views import sign_up_by_html
-from task1.views import MainPageTemplate, catalogtemplate, CartTemplate
+from Blog.views import post_list
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    # path(r'registration_page', sign_up_by_html),
-    path(r'registration_page/', sign_up_by_django),
-    # path("", func_view),
-    path("", MainPageTemplate.as_view()),
-    path(r'catalog/', catalogtemplate),
-    path(r'cart/', CartTemplate.as_view()),
-
-
+    path('index', post_list),
 ]

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block head %}{{title}}{% endblock %}</title>
+</head>
+<body>
+
+<form method="post" >
+    </select>
+    {% csrf_token %}
+    {{form}}
+    <input type="submit" value="Select">
+    </select>
+</form>
+
+
+
+{% block content %}
+<h1>Список постов</h1>
+<ul>
+    {% for post in posts %}
+    <li>
+        <b>{{ post.title }}</b> <em>({{ post.created_at }})</em>
+        <p>{{ post.content }}</p>
+    </li>
+    {% empty %}
+    <p>Нет постов.</p>
+    {% endfor %}
+</ul>
+
+<div class="pagination">
+    <p>Страницы:</p>
+    <ul>
+        {% if posts.has_previous %}
+        <li><a href="?page=1"><<</a></li>
+        <li><a href="?page={{ posts.previous_page_number }}">Предыдущая</a></li>
+        {% endif %}
+        <li>Стр. {{ posts.number }} из {{ paginator.num_pages }}</li>
+        {% if posts.has_next %}
+        <li><a href="?page={{ posts.next_page_number }}">Следующая</a></li>
+        <li><a href="?page={{ paginator.num_pages }}">>>></a></li>
+        {% endif %}
+    </ul>
+</div>
+{% endblock %}
+<script>
+    function getNumber(val){
+    console.log(val);
+
+    }
+</script>
+
+</body>
