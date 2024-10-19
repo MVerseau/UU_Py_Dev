@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bdaf64ab-98f2-40f8-ad08-b571f62172be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/UU.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.1.strings index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.2.variables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.3.dynamic_typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.4.string methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.6.tuples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.7.dict&amp;sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.1.debug.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.1.main (потом накосячила).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.2.if.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.3.03_code_style 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.4.for.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.5.defs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.1.vars&amp;defs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.3.args&amp;recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.add.rec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.3.OOP_attr&amp;meth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.5.operators_overload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4.6.Dif_class_attr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module10task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module10task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module11task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module11task1cur.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module11task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module12task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module12task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module12task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module12task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module13practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module13practice_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module13practice_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module13practice_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module13practice_keyboards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module13practice_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module13task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module13task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module13task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module13task4_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module13task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module13task6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/files/media/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/files/media/info.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/files/media/manikur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/files/media/narast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/files/media/other.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/files/media/pedikur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/files/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/files/users.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/handlers/Admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/handlers/Category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/handlers/Start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/handlers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/keyboards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/old/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/old/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/old/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/old/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/old/keyboards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/old/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/old/texts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/texts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/texts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/texts/category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/texts/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14_refactoring/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task3_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task3_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task3_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task3_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task4_crud_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task4_products.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task5_crud_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task5_products.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/.idea/Module14task6_refactored.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/handlers/Calculations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/handlers/Purchase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/handlers/Registration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/handlers/Start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/handlers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/keyboards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module14task6_refactored/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15_8_final.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15_8_vis_pol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15_MLP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15_OLP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15task6Supervised.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15task6Unsupervised.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15task8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module15test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module16task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module16task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module16task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module16task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module16task5/Module16task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module16task5/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module16task5/templates/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task1/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task1/routers/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task1/routers/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task1/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task2/backend/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task2/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task2/models/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task2/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task2/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task2/routers/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task2/routers/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task2/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/backend/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/migrations/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/migrations/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/migrations/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/migrations/versions/4699832d6a64_initial_migration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/models/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/routers/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/routers/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task3/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/backend/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/backend/db_depends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/migrations/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/migrations/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/migrations/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/migrations/versions/4699832d6a64_initial_migration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/models/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/routers/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/routers/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task4/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/backend/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/backend/db_depends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/migrations/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/migrations/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/migrations/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/migrations/versions/4699832d6a64_initial_migration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/models/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/routers/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/routers/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module17task5/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/Blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/Blog/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/Blog/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/Blog/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/Blog/migrations/0002_remove_post_body.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/Blog/migrations/0003_alter_post_options_remove_post_created_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/Blog/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/Blog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/Blog/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/Blog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/MyBlog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module19/MyBlog/templates/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module2additional5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3hard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3task3args&amp;kwargs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module3task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4task1/Module4task1_fake_math.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4task1/Module4task1_module_4_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4task1/Module4task1_true_math.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5hard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5task2v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6hard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7task2new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module8task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module8task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module8task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module9task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module9task1new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module9task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module9task4v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../alembic.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../not_telegram.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rates.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rates.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rates.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rt_with_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../runner_and_tournament.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../runner_tests.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../taskmanager.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test_12_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test_12_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module19/UrbanDjango/UrbanDjango/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module13practice_database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module19/UrbanDjango/UrbanDjango/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module19/MyBlog/MyBlog/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module19/UrbanDjango/UrbanDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module19/MyBlog/MyBlog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module19/UrbanDjango/UrbanDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module19/MyBlog/MyBlog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module19/UrbanDjango/UrbanDjango/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module19/MyBlog/MyBlog/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module19/UrbanDjango/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module19/UrbanDjango/db.sqlite3" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2n6jL3EcXqA5Pv0fXjO2PjqGPVW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/user/PycharmProjects/UU/DjangoModule/UrbanDjango"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdaf64ab-98f2-40f8-ad08-b571f62172be" name="Changes" comment="" />
+      <created>1728300361039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728300361039</updated>
+    </task>
+    <servers />
+  </component>
+</project>

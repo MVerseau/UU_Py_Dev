@@ -1,0 +1,10 @@
+2024-07-26 01:36:40,895 | WARNING | Неверный тип данных для имени экземпляра Runner
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\UU\test_12_4.py", line 28, in test_run
+    raise TypeError(f'Имя не может быть {type(rn.name).__name__}')
+TypeError: Имя не может быть int
+2024-07-26 01:36:40,895 | WARNING | Скорость не может быть отрицательной,
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\UU\test_12_4.py", line 14, in test_walk
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас: {rn.speed}')
+ValueError: Скорость не может быть отрицательной, сейчас: -9
