@@ -6,7 +6,7 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ("Blog", "0002_remove_post_body"),
+        ("blog", "0002_remove_post_body"),
     ]
 
     operations = [

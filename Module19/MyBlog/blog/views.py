@@ -34,5 +34,6 @@ def post_list(request):
         'title': 'MyBlog',
         'paginator': paginator,
         'form': form,
+        # 'func':func
     }
     return render(request, template_name, context)

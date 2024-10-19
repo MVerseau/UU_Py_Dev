@@ -2,6 +2,7 @@ from django import forms
 from .models import Post
 
 
+
 class PostsPerPage(forms.Form):
     choices = (
         ('3', 'по 3 поста'),
@@ -10,3 +11,5 @@ class PostsPerPage(forms.Form):
 
     )
     number = forms.ChoiceField(choices=choices, widget=forms.Select(), required=False, label='На странице')
+
+
