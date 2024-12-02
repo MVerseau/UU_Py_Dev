@@ -16,9 +16,9 @@ class Cafe:
         self.queue_lock = threading.Lock()
 
     def mock_thread(self):
-        time.sleep(len(self.tables)+0.1)
+        time.sleep(len(self.tables) + 0.1)
         while True:
-            if not all([table.is_busy for table in self.tables]):
+            if not all([table.is_busy for table in self.tables]): #Если освобождается стол (хотя бы один is_busy=False), "берем" следующего в очереди посетителя и сажаем его за стол (запускаем поток Посетитель с функцией обслужить)
                 # with self.queue_lock:
                 customer = self.queue.get()
                 if customer is None:
@@ -27,12 +27,13 @@ class Cafe:
                 customer.join(1)
 
     def customer_arrival(self):  # функция-producer
-        threading.Thread(target=self.mock_thread).start()
-        for i in range(1, 21):
+        mock=threading.Thread(target=self.mock_thread)
+        mock.start() #Проверяем, есть ли свободные столики, и сажаем следующего в очереди посетителя
+        for i in range(1, 21): #Создаем очередь на входе (FIFO)
             c = Customer(func=self.serve_customer)
             c.name = f'{i}'
             print(f'Посетитель номер {c.name} прибыл.')
-            if not all([table.is_busy for table in self.tables]) and self.queue.empty():  # False
+            if not all([table.is_busy for table in self.tables]) and self.queue.empty():  # False. Если столики свободны и очереди нет, то сажаем и обсуживаем
                 c.start()
                 time.sleep(1)
             else:
@@ -41,8 +42,8 @@ class Cafe:
                     self.queue.put(c)
                 time.sleep(1)
 
-        self.queue.put(None)
-
+        self.queue.put(None) # Заглушка в очереди
+        mock.join()
     def serve_customer(self, customer):
         for table in self.tables:
             if not table.is_busy:
@@ -78,3 +79,4 @@ customer_arrival_thread.start()
 
 # Ожидаем завершения работы прибытия посетителей
 customer_arrival_thread.join()
+
