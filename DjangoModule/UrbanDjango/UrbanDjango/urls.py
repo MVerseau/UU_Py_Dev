@@ -20,8 +20,8 @@ from django.urls import path
 # from task2.views import func_view, ClassView
 # from task3.views import MainPageTemplate, catalogtemplate, CartTemplate
 # from task4.views import MainPageTemplate, catalogtemplate, CartTemplate
-from task5.views import sign_up_by_django
-# from task5.views import sign_up_by_html
+#from task5.views import sign_up_by_django
+from task5.views import sign_up_by_html
 from django.views.generic import TemplateView
 
 urlpatterns = [
@@ -32,7 +32,7 @@ urlpatterns = [
     # path(r'cart/', CartTemplate.as_view()),
     # path("classview/", ClassView.as_view()),
     # path("classview/", TemplateView.as_view(template_name=r'second_task\class.html')),
-    # path(r'registration_page', sign_up_by_html),
-    path(r'registration_page', sign_up_by_django),
+     path(r'registration_page', sign_up_by_html),
+    #path(r'registration_page', sign_up_by_django),
 
 ]

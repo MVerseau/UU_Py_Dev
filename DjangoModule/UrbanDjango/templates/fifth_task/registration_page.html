@@ -10,43 +10,43 @@
         <h3><b> {{error}}</b></h3>
     </p>
 
-    <form method="post">
-        {% csrf_token %}
-        <h1>Gjango form</h1>
-
-        {{form}}
-        <p>
-            <button type="submit">Отправить</button>
-        </p>
-    </form>
-
-
 <!--    <form method="post">-->
-
 <!--        {% csrf_token %}-->
+<!--        <h1>Gjango form</h1>-->
 
-<!--        <h2>HTML form</h2>-->
-
-<!--        <p>-->
-<!--            <label for="username">Введите логин:</label>-->
-<!--            <input type="text" id="username" name='name' maxlength="30" required>-->
-<!--        </p>-->
-<!--        <p>-->
-<!--            <label for="password">Введите пароль:</label>-->
-<!--            <input type="text" id="password" name="password" minlength="8" required>-->
-<!--        </p>-->
-<!--        <p>-->
-<!--            <label for="repeat_password">Повторите пароль:</label>-->
-<!--            <input type="text" id="repeat_password" name="repeat_password" minlength="8" required>-->
-<!--        </p>-->
-<!--        <p>-->
-<!--            <label for="age">Введите свой ввозраст:</label>-->
-<!--            <input type="text" id="age" name="age" maxlength="3" required>-->
-<!--        </p>-->
+<!--        {{form}}-->
 <!--        <p>-->
 <!--            <button type="submit">Отправить</button>-->
 <!--        </p>-->
 <!--    </form>-->
+
+
+    <form method="post">
+
+        {% csrf_token %}
+
+        <h2>HTML form</h2>
+
+        <p>
+            <label for="username">Введите логин:</label>
+            <input type="text" id="username" name='name' maxlength="30" required>
+        </p>
+        <p>
+            <label for="password">Введите пароль:</label>
+            <input type="text" id="password" name="password" minlength="8" required>
+        </p>
+        <p>
+            <label for="repeat_password">Повторите пароль:</label>
+            <input type="text" id="repeat_password" name="repeat_password" minlength="8" required>
+        </p>
+        <p>
+            <label for="age">Введите свой ввозраст:</label>
+            <input type="text" id="age" name="age" maxlength="3" required>
+        </p>
+        <p>
+            <button type="submit">Отправить</button>
+        </p>
+    </form>
         <p>
 
             <h3><b> {{success}}</b></h3>

@@ -38,23 +38,23 @@ def sign_up_by_django(request):
     return render(request, template_name, info)
 
 
-# def sign_up_by_html(request):
-#     template_name = r'fifth_task\registration_page.html'
-#     info = {}
-#     if request.method == 'POST':
-#         users = user_generator()
-#         user = request.POST.get('name')
-#         password = request.POST.get('password')
-#         pass_repeat = request.POST.get('repeat_password')
-#         age = int(request.POST.get('age'))
-#         if user in users:
-#             info.setdefault('error', 'Пользователь уже существует')
-#         elif password != pass_repeat:
-#             info.setdefault('error', 'Пароли не совпадают.')
-#         elif age < 18:
-#             info.setdefault('error', 'Вы должны быть старше 18.')
-#         else:
-#             success = f'Приветствуем, {user}!'
-#             info.setdefault('success', success)
-#
-#     return render(request, template_name, context=info)
+def sign_up_by_html(request):
+    template_name = r'fifth_task\registration_page.html'
+    info = {}
+    if request.method == 'POST':
+        users = user_generator()
+        user = request.POST.get('name')
+        password = request.POST.get('password')
+        pass_repeat = request.POST.get('repeat_password')
+        age = int(request.POST.get('age'))
+        if user in users:
+            info.setdefault('error', 'Пользователь уже существует')
+        elif password != pass_repeat:
+            info.setdefault('error', 'Пароли не совпадают.')
+        elif age < 18:
+            info.setdefault('error', 'Вы должны быть старше 18.')
+        else:
+            success = f'Приветствуем, {user}!'
+            info.setdefault('success', success)
+
+    return render(request, template_name, context=info)
