@@ -1,8 +1,8 @@
 from aiogram import types
 from aiogram.fsm.state import StatesGroup, State
 
-import keyboards
-from database import is_included, add_user
+import Module14task6_refactored.keyboards
+from Module14task6_refactored.database import is_included, add_user
 
 class RegistrationState(StatesGroup):
     username = State()

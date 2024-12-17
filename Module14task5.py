@@ -7,7 +7,7 @@ import Module14task5_crud_functions
 from Module14task5_crud_functions import *
 
 dp = Dispatcher()
-api = ''
+api = '7390509811:AAGZ9MzIsp66MgyqTlE52aFIwIACb8WJfbc'
 bot = Bot(token=api)
 
 button_info = types.KeyboardButton(text='Информация')

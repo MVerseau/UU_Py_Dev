@@ -5,7 +5,7 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 
 dp = Dispatcher()
-api = ''
+api = '7390509811:AAGZ9MzIsp66MgyqTlE52aFIwIACb8WJfbc'
 bot = Bot(token=api)
 
 button_info = types.KeyboardButton(text='Информация')

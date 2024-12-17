@@ -1,8 +1,8 @@
 from aiogram import types
 
-import database
-from database import get_all_products
-from keyboards import kb3
+import Module14task6_refactored.database as database
+from Module14task6_refactored.database import get_all_products
+from Module14task6_refactored.keyboards import kb3
 # from main import prods
 
 

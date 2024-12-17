@@ -2,6 +2,8 @@ from aiogram import types
 from aiogram.filters.state import State, StatesGroup
 
 import keyboards
+
+
 class UserState(StatesGroup):
     age = State()
     growth = State()
@@ -22,14 +24,16 @@ async def set_growth(message, state):
     await message.answer(f'Введите свой рост:')
     await state.set_state(UserState.growth)
 
+
 async def set_weigth(message, state):
     await state.update_data(growth=message.text)
     await message.answer('Введите свой вес:')
     await state.set_state(UserState.weight)
 
+
 async def send_calories(message, state):
     await state.update_data(weight=message.text)
     data = await state.get_data()
-    await message.answer(f'{10 * int(data['weight']) + 6 * int(data['growth']) - 5 * int(data['age']) - 161}', reply_markup=keyboards.kb)
+    await message.answer(f'{10 * int(data['weight']) + 6 * int(data['growth']) - 5 * int(data['age']) - 161}',
+                         reply_markup=keyboards.kb)
     await state.clear()
-
